@@ -1,0 +1,292 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+}
+
+.card mb-3{
+    background-color: blue;
+}
+
+.bg-light {
+    background-color: #9c1b19 !important;
+}
+.navbar {
+    background: rgb(128, 0, 0);
+    color: #fff;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.left-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.left-img img {
+    max-width: 300px;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-login {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.btn-maroon {
+    color: #fff;
+    background-color: #9c1b19;
+    border-color: #9c1b19;
+}
+
+
+/* home style */
+
+.home-main-content section {
+    padding: 10px 0;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-holder {
+    text-align: center;
+}
+
+.image-holder img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contact-info h2 {
+    text-align: center;
+}
+
+.about {
+    color: black;
+}
+
+.contact,
+.about {
+    text-align: center
+}
+
+section.about-outer {
+    background: url(../images/logo3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-img img {
+    width: 50%;
+}
+
+footer {
+    background: #9c1b19;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+
+/* user profile style */
+/* 
+main {
+    padding: 20px 0 20px 20px;
+    display: flex;
+    align-items: center;
+    background: #725e5e3b;
+}
+
+main .profile-image {
+    padding-left: 20px;
+}
+
+main .info-container p {
+    margin-bottom: 0px;
+}
+
+main .profile-image img {
+    border: 5px solid white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+} */
+
+.request-container {
+    text-align: center;
+    height: 425px;
+    padding: 20px;
+    margin: 10px;
+    /* background: #e4caca; */
+    font-size: small;
+   border: 1px solid #9c1b19;
+}
+
+.request-container h3 {
+    font-size: 1rem !important;
+}
+
+.request-title {
+    height: 20%;
+}
+
+.request-requirement {
+    height: 60%;
+}
+.request-requirement ul{
+    list-style: none;
+}
+
+.request-requirement-special {
+    height: 40%;
+}
+
+.request-button {
+    height: 10%
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #9c1b19 !important;
+    border-color: #9c1b19 !important;
+    width: 100%
+}
+
+.btn-primary:hover {
+    color: #9c1b19;
+    background-color: #e4caca !important;
+    border-color: #9c1b19 !important;
+}
+
+
+/* admin style   */
+
+
+/* 
+.title-wrapper h3 {
+    text-align: center;
+} */
+
+.admin-inner-container {
+    height: auto;
+    background-color: snow;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10
+px
+;
+}
+
+.sidebar {
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+}
+
+
+/* .row>* {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    width: 100%;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+} */
+
+.admin-list {
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.admin-list ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.admin-list ul li {
+    padding: 10px 10px;
+}
+
+.admin-list ul li:hover {
+    padding: 10px 10px;
+    border: white 1px solid;
+    background: #9c1b19;
+    color: white;
+}
+
+.admin-list ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.admin-list ul li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.admin-side-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.form-container {
+    padding: 20px;
+}
+
+.banner {
+    background: url(../images/ssu_hero_banner.jpg) no-repeat;
+    background-size: cover;
+    height: 65vh;
+    
+}
